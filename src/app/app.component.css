@@ -1,0 +1,15 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sideMenu {
+    height: 100%;
+}
+
+.mainScreen {
+    height: 100%;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
