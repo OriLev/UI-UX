@@ -9,12 +9,10 @@ import {trigger, state, style, transition, animate} from '@angular/animations';
   animations: [
     trigger('slideInOut', [
       state('in', style({
-        flexBasis: '20%',
-        background: 'blue',
+        width: '19.85%',
       })),
       state('out', style({
-        flexBasis: '0%',
-        background: 'blue',
+        width: '0%',
       })),
       transition('in => out', animate('400ms ease-in-out')),
       transition('out => in', animate('400ms ease-in-out'))
@@ -26,7 +24,7 @@ export class AppComponent {
 
   menuState = 'in';
 
-  toggleMenu(newMenuState: string): void {
-    this.menuState = newMenuState;
+  toggleMenu(): void {
+    this.menuState = this.menuState === 'out' ? 'in' : 'out';
   }
 }

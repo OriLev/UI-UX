@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    border: solid black 2px;
+    /* border: solid black 1px; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,10 +10,11 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: stretch;
     align-items: stretch;
-    height: 100vh;
+    height: 1352px;
+    width: 1920px;
   }
    
 app-root {

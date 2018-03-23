@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-size:1.5rem;
+    border-left: 10px solid rgba(85, 132, 255, 0);
+}
+
+.content:hover {
+    border-left: 10px solid rgba(85, 132, 255, 255);
+    background: rgba(18, 33, 67, 255);
+}
+
+.content__text {
+    padding-left: 12%;
+    margin-left: 13.3%;
+    top: 36%;
+    left: 13%;
+    /* background-position: 0px 50%;
+    background-size: 1.3rem; */
+}

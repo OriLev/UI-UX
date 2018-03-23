@@ -7,14 +7,15 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class TopMenuComponent implements OnInit {
   @Input() menuState: string;
-  @Output() menuStateChange: EventEmitter<String> = new EventEmitter<String>()
-
+  @Output() menuStateChange = new EventEmitter<null>()
+  yellow = 'green';
   toggleMenu(): void {
-    this.menuStateChange.emit(this.menuState === 'out' ? 'in' : 'out');
+    this.menuStateChange.emit(null);
   }
   constructor() { }
 
   ngOnInit() {
+    // setInterval(() => this.yellow = this.yellow === 'green' ? 'url(/assets/002-006-003-001-000.png)' : 'green' , 1000 )
   }
 
 }
