@@ -1,0 +1,17 @@
+.sideMenuToggle {
+    height: 30%;
+    width: 2.5%;
+    margin-left: 2.5%;
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(../../assets/menu-hamburger.svg) right center/ 65% no-repeat, url(../../assets/caret-left.svg) left center / 15% no-repeat;
+}
+
+.profileOptions {
+    height: 75%;
+    width: 33%;
+    background: blue;
+}

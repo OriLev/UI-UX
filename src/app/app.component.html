@@ -1,4 +1,4 @@
   <app-side-menu class="sideMenu" [@slideInOut]="menuState"></app-side-menu>
   <div class="mainScreen">
-    <app-top-menu [menuState]="menuState" (menuStateChange)="toggleMenu($event)"></app-top-menu>
+    <app-top-menu class="topMenu" [menuState]="menuState" (menuStateChange)="toggleMenu($event)"></app-top-menu>
   </div>
