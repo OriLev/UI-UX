@@ -6,7 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./circle.component.css']
 })
 export class CircleComponent implements OnInit {
-  @Input() color: string;
+  @Input() content: string|number;
+  @Input() backgroundStyle: object;
   constructor() { }
 
   ngOnInit() {

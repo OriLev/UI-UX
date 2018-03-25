@@ -1,3 +1,3 @@
-<p [style.background]="color">
-  circle works!
-</p>
+<div class = "circle" [ngStyle]="backgroundStyle">
+  <span *ngIf="content">{{content}}</span>
+</div>
