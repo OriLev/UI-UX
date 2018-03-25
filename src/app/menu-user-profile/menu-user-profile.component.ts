@@ -9,6 +9,7 @@ export class MenuUserProfileComponent implements OnInit {
   avatarBackground = {
     'background': 'url("/assets/avatar-john-doe.png") no-repeat',
     'background-position': '56% 15%',
+    'background-size': '400%',
   }
   constructor() { }
 

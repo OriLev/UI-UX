@@ -9,6 +9,7 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
 import { MenuItemComponent } from './menu-item/menu-item.component';
 import { MenuUserProfileComponent } from './menu-user-profile/menu-user-profile.component';
 import { ProfileNotificationsComponent } from './profile-notifications/profile-notifications.component';
+import { UserActionsComponent } from './user-actions/user-actions.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProfileNotificationsComponent } from './profile-notifications/profile-n
     SideMenuComponent,
     MenuItemComponent,
     MenuUserProfileComponent,
-    ProfileNotificationsComponent
+    ProfileNotificationsComponent,
+    UserActionsComponent
   ],
   imports: [
     BrowserModule,

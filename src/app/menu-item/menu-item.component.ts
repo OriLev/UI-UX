@@ -23,7 +23,7 @@ export class MenuItemComponent implements OnInit {
     this.contentBackground = {
       'background': 'url(' + this.menuItem.iconURL + ') no-repeat',
       'background-position': '0px 10%',
-      'background-size': '1.5rem',
+      'background-size': '1rem',
     }
     console.log(this.menuItem.iconURL)
   }

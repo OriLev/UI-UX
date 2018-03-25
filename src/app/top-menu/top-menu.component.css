@@ -1,6 +1,6 @@
 .sideMenuToggle {
     height: 30%;
-    width: 2.5%;
+    width: 2.5vw;
     margin-left: 2.5%;
     /* background: gray; */
     display: flex;
@@ -12,14 +12,13 @@
 
 .profileOptions {
     height: 75%;
-    width: 33%;
-    /* background: blue; */
+    width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.profileOptions__actions {
+.profileActions {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
@@ -33,24 +32,3 @@
     align-items: center;
 }
 
-.actions__addProject{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    padding-top: 0.7%;
-    align-items: center;
-    background: rgba(85, 132, 255, 255);   
-    height: 56%;
-    width: 68%;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 1.5rem;
-    color: white;
-}
-
-.buttonLabel {
-    background: url('/assets/icon-plus.png') no-repeat;
-    background-position: 0% 40%;
-    margin-left: 10%;
-    padding-left: 15%;
-}
