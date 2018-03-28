@@ -10,6 +10,17 @@ import { MenuItemComponent } from './menu-item/menu-item.component';
 import { MenuUserProfileComponent } from './menu-user-profile/menu-user-profile.component';
 import { ProfileNotificationsComponent } from './profile-notifications/profile-notifications.component';
 import { UserActionsComponent } from './user-actions/user-actions.component';
+import { DisplayComponent } from './display/display.component';
+import { GreetingComponent } from './greeting/greeting.component';
+import { DataDisplayComponent } from './data-display/data-display.component';
+import { DataHeaderComponent } from './data-header/data-header.component';
+import { DataComponent } from './data/data.component';
+import { PeriodButtonComponent } from './period-button/period-button.component';
+import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
+import { TasksDisplayComponent } from './tasks-display/tasks-display.component';
+import { MessagesDisplayComponent } from './messages-display/messages-display.component';
+import { ActivityDisplayComponent } from './activity-display/activity-display.component';
+import { TasksService } from './tasks.service';
 
 @NgModule({
   declarations: [
@@ -19,14 +30,24 @@ import { UserActionsComponent } from './user-actions/user-actions.component';
     MenuItemComponent,
     MenuUserProfileComponent,
     ProfileNotificationsComponent,
-    UserActionsComponent
+    UserActionsComponent,
+    DisplayComponent,
+    GreetingComponent,
+    DataDisplayComponent,
+    DataHeaderComponent,
+    DataComponent,
+    PeriodButtonComponent,
+    UserDashboardComponent,
+    TasksDisplayComponent,
+    MessagesDisplayComponent,
+    ActivityDisplayComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     SharedModule,
   ],
-  providers: [],
+  providers: [TasksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

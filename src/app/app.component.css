@@ -8,6 +8,14 @@
     height: 100%;
 }
 
+.mainScreen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
 .topMenu {
     flex-basis: 8.77%;
     background: white;
@@ -18,10 +26,9 @@
     padding-bottom: 5px;
 }
 
-.mainScreen {
+.main {
+    background-color: rgba(246, 247, 250, 255);
+    flex-basis: 91.23%;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    flex-basis: 100%;
-    flex-grow: 1;
 }

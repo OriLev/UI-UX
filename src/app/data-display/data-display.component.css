@@ -1,0 +1,14 @@
+.data {
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.dataHeader {
+    flex-basis: 20%;
+    padding: 1rem 0.75rem 0.25rem 0.5rem;
+}
+
+.dataView {
+    height: 80%;
+}

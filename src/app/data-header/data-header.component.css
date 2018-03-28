@@ -1,0 +1,28 @@
+.headerBar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.dataHeader {
+    color: rgba(132, 146, 175, 255);
+}
+
+.periodButton {
+    border-radius: 1.5rem;
+    height: 80%;
+    width: 8.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 0.55rem;
+    font-weight: 600;
+    background: url('/assets/icon-down.png') no-repeat;
+    background-position: 89% 50%;
+    background-size: 7%;
+    background-color: rgba(255, 58, 118, 255);
+}

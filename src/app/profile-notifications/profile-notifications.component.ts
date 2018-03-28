@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileNotificationsComponent implements OnInit {
   newNotifications: number;
+  counterStyle = {
+    'background': 'rgba(83, 132, 255, 255)',
+    'font-size': '50%'
+  }
   constructor() { }
 
   ngOnInit() {

@@ -1,0 +1,23 @@
+<div class="tasksDisplay">
+    <div class="tasksHeader">
+        <span class="header">Tasks</span>
+        <div class="counters">
+            <div class="counter" *ngFor="let counter of counterList">
+                <app-circle [circleStyle]="counter.style" [content]="counter.number"></app-circle>
+            </div>
+        </div>
+    </div>
+    <div class="tasksList">
+        <div class="task" *ngFor="let item of tasksList">
+            <div class="marker">
+                <app-circle [circleStyle]="markerStyle" [content]="item.task[0]"></app-circle>
+            </div>
+            <div class="content">
+                <span class="taskText">{{item.task}}</span> 
+                <span *ngIf="item.daysLeft>=0; else elseBlock" class="timeLeft onTime">{{item.daysLeft}} days left</span> 
+                <ng-template #elseBlock><span class="timeLeft delay">{{-item.daysLeft}} days delays</span></ng-template>
+            </div>
+            <img class="dragIcon" src="/assets/vertical-three-dots.png" alt="vertical-three-dots">
+        </div>
+    </div>
+</div>

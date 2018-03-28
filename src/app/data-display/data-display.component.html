@@ -1,0 +1,4 @@
+<div class="data" *ngFor="let item of data">
+  <app-data-header class="dataHeader" [label]="item.label"></app-data-header>
+  <app-data class="dataView" [chartSRC]="item.chartURL"></app-data>
+</div>
