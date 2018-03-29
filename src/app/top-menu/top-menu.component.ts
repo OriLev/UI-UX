@@ -9,13 +9,11 @@ export class TopMenuComponent implements OnInit {
   @Input() menuState: string;
   @Output() menuStateChange = new EventEmitter<null>()
   yellow = 'green';
-  toggleMenu(): void {
+  toggleMenu(event: any): void {
     this.menuStateChange.emit(null);
   }
   constructor() { }
 
-  ngOnInit() {
-    // setInterval(() => this.yellow = this.yellow === 'green' ? 'url(/assets/002-006-003-001-000.png)' : 'green' , 1000 )
-  }
+  ngOnInit() { }
 
 }

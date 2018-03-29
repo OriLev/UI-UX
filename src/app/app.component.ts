@@ -20,11 +20,9 @@ import {trigger, state, style, transition, animate} from '@angular/animations';
   ],
 })
 export class AppComponent {
-  title = 'app';
-
   menuState = 'in';
 
-  toggleMenu(): void {
+  toggleMenu(event: any): void {
     this.menuState = this.menuState === 'out' ? 'in' : 'out';
   }
 }
