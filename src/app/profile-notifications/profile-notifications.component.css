@@ -1,7 +1,7 @@
 .messages {
     flex-basis: 42%;
     height: 77%;
-    background: url('../../assets/messages.png') no-repeat;
+    background: url('/assets/messages.png') no-repeat;
     background-position: 50% 50%;
     background-size: auto 58%;
 }
@@ -9,7 +9,7 @@
 .notifications {
     flex-basis: 42%;
     height: 77%;
-    background: url('../../assets/notifications.png') no-repeat;
+    background: url('/assets/notifications.png') no-repeat;
     background-position: 50% 45%;
     background-size: auto 70%;
     position: relative;

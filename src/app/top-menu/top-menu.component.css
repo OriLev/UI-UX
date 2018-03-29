@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background: url(../../assets/menu-hamburger.svg) right center/ 65% no-repeat, url(../../assets/caret-left.svg) left center / 15% no-repeat;
+    background: url('/assets/menu-hamburger.svg') right center/ 65% no-repeat, url('/assets/caret-left.svg') left center / 15% no-repeat;
 }
 
 .profileOptions {
