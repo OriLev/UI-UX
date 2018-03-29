@@ -1,5 +1,6 @@
 <div class="activityDisplay">
     <app-feed-header class="feedHeader" [counters]="counters" [header]="activityList.type"></app-feed-header>
+    <div class="verticalDecoration"></div>
     <div class="activityList">
         <app-activity-component class="activity clickable" *ngFor="let item of activityList.list" [activity]="item"></app-activity-component>
     </div>

@@ -1,5 +1,6 @@
 .activityDisplay {
     height: 100%;
+    position: relative;
 }
 
 .activityList {
@@ -20,3 +21,10 @@
     align-items: center;
 }
 
+.verticalDecoration {
+    position: absolute;
+    border-left: solid 1px rgba(218, 222, 231, 255);;
+    top: 3.75rem;
+    left: 2.5rem;
+    bottom: 0;
+}

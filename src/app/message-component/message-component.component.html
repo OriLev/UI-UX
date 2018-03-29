@@ -1,0 +1,14 @@
+<div class="avatar">
+  <app-avatar [user]="message.user"></app-avatar>
+</div>
+<div class="content">
+  <span class="messageHeader">
+    <span class="user">{{message.user.firstName}} {{message.user.lastName}}</span>
+    <span class="when">{{message.when}}</span>
+  </span>
+  <span class="messageText">{{finalMessageText}}</span>
+  <div class="messageActions">
+    <div class="action reply"></div>
+    <div class="action options"></div>
+  </div>
+</div>

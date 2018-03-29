@@ -1,0 +1,25 @@
+.messagesDisplay {
+    height: 100%;
+    position: relative;
+}
+
+.messagesList {
+    overflow: hidden;
+    height: 83%;
+}
+
+.messagesList:hover {
+    overflow-y: scroll;
+}
+
+.message {
+    height: 25%;
+    border-top: solid 1px rgba(218, 222, 231, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.unread {
+    background: rgba(243, 245, 247, 255);
+}

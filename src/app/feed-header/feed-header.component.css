@@ -1,3 +1,7 @@
+.header {
+    font-weight: 600;
+}
+
 .counters {
     flex-basis: 100%;
     display: flex;

@@ -1,3 +1,6 @@
-<div *ngFor="let item of messagesList">
-    {{item}}
+<div class="messagesDisplay">
+    <app-feed-header class="feedHeader" [counters]="counters" [header]="messagesList.type"></app-feed-header>
+    <div class="messagesList">
+        <app-message-component *ngFor="let item of messagesList.list" class="message clickable" [ngClass]="{'unread': !item.wasRead}" [message]="item"></app-message-component>
+    </div>
 </div>

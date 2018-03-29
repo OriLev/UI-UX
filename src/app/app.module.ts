@@ -26,6 +26,8 @@ import { TaskComponentComponent } from './task-component/task-component.componen
 import { ActivityService } from './activity.service';
 import { ActivityComponentComponent } from './activity-component/activity-component.component';
 import { AvatarComponent } from './avatar/avatar.component';
+import { MessagesService } from './messages.service';
+import { MessageComponentComponent } from './message-component/message-component.component';
 
 @NgModule({
   declarations: [
@@ -49,14 +51,15 @@ import { AvatarComponent } from './avatar/avatar.component';
     FeedHeaderComponent,
     TaskComponentComponent,
     ActivityComponentComponent,
-    AvatarComponent
+    AvatarComponent,
+    MessageComponentComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     SharedModule,
   ],
-  providers: [TasksService, ActivityService],
+  providers: [TasksService, ActivityService, MessagesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
