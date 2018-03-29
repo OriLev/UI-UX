@@ -24,9 +24,16 @@
 
 .when {
     font-size: small;
-    padding: 0.5em 0 0 2em;
+    padding: 0em 0 0 1em;
     background: url('/assets/clock.png') no-repeat;
     background-size: auto 70%;
-    background-position: left bottom;
+    background-position: left;
     color: rgba(132, 146, 175, 255);
+}
+
+@media (min-width: 1600px) {
+    .when {
+        padding: 0.5em 0 0 2em;
+        background-position: left bottom;
+    }
 }
