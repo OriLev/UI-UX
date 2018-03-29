@@ -1,13 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    /* border: solid black 1px; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 
@@ -20,10 +19,10 @@ body {
     align-content: stretch;
     align-items: stretch;
     font-family: arial;
-    height: 1352px;
-    width: 1920px;
-    /* height: 100vh; */
-    /* width: 100%; */
+    /* height: 1352px; */
+    /* width: 1920px; */
+    height: 100vh;
+    width: 100vw;
     /* height: calc(1352/1920*100vw); */
   }
    
@@ -35,7 +34,7 @@ app-root {
     align-self: auto;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
     html {
         font-size: 1.5em;
     }
