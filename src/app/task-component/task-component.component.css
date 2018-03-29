@@ -17,9 +17,9 @@
 
 .timeLeft {
     font-size: small;
-    padding: 0.5em 0 0 2em;
+    padding: 0em 0 0 1em;
     background: url('/assets/clock.png') no-repeat;
-    background-position: left bottom;
+    background-position: left;
     background-size: auto 70%;
 }
 
@@ -33,4 +33,11 @@
 
 .dragIcon {
     height: 1.5rem;
+}
+
+@media (min-width: 1600px) {
+    .timeLeft {
+        padding: 0.5em 0 0 2em;
+        background-position: left bottom;
+    }
 }
