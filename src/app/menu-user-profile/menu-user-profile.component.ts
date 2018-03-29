@@ -10,7 +10,7 @@ export class MenuUserProfileComponent implements OnInit {
     firstName: 'John',
     lastName: 'Doe',
     avatar: {
-      path: '/assets/avatar-john-doe.png',
+      path: 'assets/avatar-john-doe.png',
       style: {
         'background-position': '56% 15%',
         'background-size': '400%',
@@ -18,7 +18,7 @@ export class MenuUserProfileComponent implements OnInit {
     }
   }
   avatarBackground = {
-    'background': 'url("/assets/avatar-john-doe.png") no-repeat',
+    'background': 'url("assets/avatar-john-doe.png") no-repeat',
     'background-position': '56% 15%',
     'background-size': '400%',
   }

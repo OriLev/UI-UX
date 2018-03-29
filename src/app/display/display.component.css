@@ -15,7 +15,6 @@
 .data {
     padding: 0.25rem 0 0.75rem 0;
     height: 43.5%;
-    /* height: 498px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;

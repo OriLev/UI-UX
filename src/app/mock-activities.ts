@@ -6,7 +6,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -22,7 +22,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'James',
             lastName: 'Smith',
             avatar: {
-                path: '/assets/avatar-james-smith.png',
+                path: 'assets/avatar-james-smith.png',
                 style: {
                     'background-position': '82% -13%',
                     'background-size': '260%'
@@ -38,7 +38,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Alex',
             lastName: 'Clooney',
             avatar: {
-                path: '/assets/avatar-alex-clooney.png',
+                path: 'assets/avatar-alex-clooney.png',
                 style: {
                     'background-position': '65% 38%',
                     'background-size': '172%'
@@ -54,7 +54,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Alexandra',
             lastName: 'Spears',
             avatar: {
-                path: '/assets/avatar-alexandra-spears.png',
+                path: 'assets/avatar-alexandra-spears.png',
                 style: {
                     'background-position': '50% 52%',
                     'background-size': '188%'
@@ -70,7 +70,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -86,7 +86,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -102,7 +102,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -118,7 +118,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -134,7 +134,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -150,7 +150,7 @@ export const ACTIVITIES: Activity[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'

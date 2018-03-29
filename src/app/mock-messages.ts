@@ -6,7 +6,7 @@ export const MESSAGES: Message[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -22,7 +22,7 @@ export const MESSAGES: Message[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'
@@ -38,7 +38,7 @@ export const MESSAGES: Message[] = [
             firstName: 'James',
             lastName: 'Smith',
             avatar: {
-                path: '/assets/avatar-james-smith.png',
+                path: 'assets/avatar-james-smith.png',
                 style: {
                     'background-position': '82% -13%',
                     'background-size': '260%'
@@ -54,7 +54,7 @@ export const MESSAGES: Message[] = [
             firstName: 'Nina',
             lastName: 'Jones',
             avatar: {
-                path: '/assets/avatar-nina-jones.png',
+                path: 'assets/avatar-nina-jones.png',
                 style: {
                     'background-position': '65% 0%',
                     'background-size': '260%'

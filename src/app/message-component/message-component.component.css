@@ -36,7 +36,6 @@
 .messageActions {
     height: 1em;
     width: 2.5em;
-    /* padding: 0.25em 0; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;

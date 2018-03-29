@@ -9,11 +9,11 @@ export class DataDisplayComponent implements OnInit {
   data = [
     {
       label: 'Your Sales',
-      chartURL: '/assets/sales-chart.png',
+      chartURL: 'assets/sales-chart.png',
     },
     {
       label: 'Report',
-      chartURL: '/assets/report-chart.png',
+      chartURL: 'assets/report-chart.png',
     },
   ]
   constructor() { }

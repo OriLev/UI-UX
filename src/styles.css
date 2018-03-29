@@ -19,11 +19,8 @@ body {
     align-content: stretch;
     align-items: stretch;
     font-family: arial;
-    /* height: 1352px; */
-    /* width: 1920px; */
     height: 100vh;
     width: 100vw;
-    /* height: calc(1352/1920*100vw); */
   }
    
 app-root {

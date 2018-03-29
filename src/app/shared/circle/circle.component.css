@@ -1,11 +1,11 @@
 .circleContainer {
 	position: relative;
-	width: 100%;		/* desired width */
+	width: 100%;		
 }
 .circleContainer:before{
 	content: "";
 	display: block;
-	padding-top: 100%; 	/* initial ratio of 1:1*/
+	padding-top: 100%; 	
 }
 
 .circle {
