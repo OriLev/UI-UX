@@ -1,0 +1,10 @@
+.counters {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.counter {
+    width: 13%;
+    margin: 2%;
+}

@@ -1,0 +1,9 @@
+<div class="marker">
+    <app-circle [circleStyle]="markerStyle" [content]="task.text[0]"></app-circle>
+</div>
+<div class="content">
+    <span class="taskText">{{task.text}}</span> 
+    <span *ngIf="task.daysLeft>=0; else elseBlock" class="timeLeft onTime">{{task.daysLeft}} days left</span> 
+    <ng-template #elseBlock><span class="timeLeft delay">{{-task.daysLeft}} days delays</span></ng-template>
+</div>
+<img class="dragIcon" src="/assets/vertical-three-dots.png" alt="vertical-three-dots">

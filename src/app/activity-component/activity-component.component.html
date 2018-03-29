@@ -1,0 +1,11 @@
+<div class="marker">
+  <app-avatar [user]="activity.user"></app-avatar>
+</div>
+<div class="content">
+  <span class="activityText">
+      <span class="user">{{activity.user.firstName}} {{activity.user.lastName}}</span>
+      <span class="action">{{activity.action}}</span>
+      <span class="predicate">{{finalPredicate}}</span>
+  </span>
+  <span class="when">{{activity.when}}</span> 
+</div>

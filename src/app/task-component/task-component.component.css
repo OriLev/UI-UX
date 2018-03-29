@@ -1,0 +1,35 @@
+.marker {
+    width: 4.5rem;
+    padding: 0 1rem 0 1.5rem;
+}
+
+.content {
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskText {
+    color: rgba(14, 26, 53, 255);
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.timeLeft {
+    font-size: small;
+    padding: 0.5em 0 0 2em;
+    background: url('/assets/clock.png') no-repeat;
+    background-position: left bottom;
+}
+
+.onTime {
+    color: rgba(132, 146, 175, 255);
+}
+
+.delay {
+    color: rgba(248, 73, 131, 255);
+}
+
+.dragIcon {
+    height: 1.5rem;
+}

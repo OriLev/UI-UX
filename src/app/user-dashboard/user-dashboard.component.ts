@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Task } from '../task';
 import { TasksService } from '../tasks.service';
+import { ActivityService } from '../activity.service';
+import { Activity } from '../activity';
 
 @Component({
   selector: 'app-user-dashboard',
@@ -9,6 +11,7 @@ import { TasksService } from '../tasks.service';
 })
 export class UserDashboardComponent implements OnInit {
   tasksList: Task[];
+  activityList: Activity[];
   feeds = [
     {
       type: 'tasks',
@@ -20,17 +23,25 @@ export class UserDashboardComponent implements OnInit {
     },
     {
       type: 'activity',
-      list: [6,5,4,3,6],
+      list: this.activityList,
     }
   ]
-  constructor(private tasksService: TasksService) { }
+  constructor(private tasksService: TasksService, private activityService: ActivityService) { }
 
   ngOnInit() {
     this.getTasks();
+    this.getActivities();
   }
 
   getTasks(): void {
-    this.tasksList = this.tasksService.getTasks();
+    this.tasksService.getTasks()
+      .subscribe(tasks => this.tasksList = tasks)
     this.feeds[0].list = this.tasksList;
+  }
+
+  getActivities(): void {
+    this.activityService.getActivities()
+      .subscribe(activities => this.activityList = activities)
+    this.feeds[2].list = this.activityList;
   }
 }

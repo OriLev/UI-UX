@@ -1,4 +1,4 @@
 export class Task {
-    task: string;
+    text: string;
     daysLeft: number;
 }

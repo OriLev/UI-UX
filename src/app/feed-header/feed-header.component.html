@@ -1,0 +1,6 @@
+<span class="header">{{header[0].toUpperCase()+header.slice(1)}}</span>
+<div class="counters">
+  <div class="counter" *ngFor="let counter of counters">
+    <app-circle [circleStyle]="counter.style" [content]="counter.amount"></app-circle>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 <div *ngFor="let feed of feeds" class="feed" >
-  <app-tasks-display  *ngIf="feed.type==='tasks'" [tasksList]="feed.list"></app-tasks-display>
+  <app-tasks-display  *ngIf="feed.type==='tasks'" [tasksList]="feed"></app-tasks-display>
   <app-messages-display *ngIf="feed.type==='messages'" [messagesList]="feed.list"></app-messages-display>
-  <app-activity-display *ngIf="feed.type==='activity'" [activityList]="feed.list"></app-activity-display>
+  <app-activity-display *ngIf="feed.type==='activity'" [activityList]="feed"></app-activity-display>
 </div>

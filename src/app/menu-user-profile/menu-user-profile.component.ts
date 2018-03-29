@@ -6,6 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-user-profile.component.css']
 })
 export class MenuUserProfileComponent implements OnInit {
+  user = {
+    firstName: 'John',
+    lastName: 'Doe',
+    avatar: {
+      path: '/assets/avatar-john-doe.png',
+      style: {
+        'background-position': '56% 15%',
+        'background-size': '400%',
+      }
+    }
+  }
   avatarBackground = {
     'background': 'url("/assets/avatar-john-doe.png") no-repeat',
     'background-position': '56% 15%',

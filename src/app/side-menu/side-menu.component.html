@@ -2,7 +2,7 @@
   <li class="sideMenu__header">
     <div class="logoContainer"><img src="assets/logo.png"></div>
   </li>
-  <li class="sideMenu__item" *ngFor="let item of menuItems">
+  <li class="sideMenu__item clickable" *ngFor="let item of menuItems">
     <app-menu-item [menuItem]="item"></app-menu-item>    
   </li>
 </ul>

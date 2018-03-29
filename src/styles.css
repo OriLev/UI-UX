@@ -40,3 +40,17 @@ app-root {
         font-size: 1.5em;
     }
 }
+
+.feedHeader {
+    height: 17%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 5% 2% 7%;
+    color: rgba(14, 26, 53, 255);
+}
+
+.clickable {
+    cursor: pointer;
+}

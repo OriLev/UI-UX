@@ -1,0 +1,31 @@
+.marker {
+    width: 4.5rem;
+    padding: 0 1rem 0 1.5rem;
+}
+
+.content {
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.activityText {
+    font-size: small;
+}
+
+.user, .predicate {
+    color: rgba(14, 26, 53, 255);
+    font-weight: 600;
+}
+
+.action {
+    color: rgba(132, 146, 175, 255);
+}
+
+.when {
+    font-size: small;
+    padding: 0.5em 0 0 2em;
+    background: url('/assets/clock.png') no-repeat;
+    background-position: left bottom;
+    color: rgba(132, 146, 175, 255);
+}
